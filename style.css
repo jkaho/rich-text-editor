@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 #editor {
   height: 100vh;
   width: 100%;
-  border: solid 2px rgb(1, 1, 1, 0.2);
-  border-radius: 5px;
+  /* border: solid 2px rgb(1, 1, 1, 0.2);
+  border-radius: 5px; */
   display: flex;
   flex-direction: column;
 }
@@ -47,6 +52,10 @@
 }
 
 .icon:hover {
+  background: rgb(1, 1, 1, 0.05);
+}
+
+.format-on {
   background: rgb(1, 1, 1, 0.05);
 }
 
