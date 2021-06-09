@@ -5,6 +5,7 @@ function init() {
 }
 
 function formatText(command, value) {
+  textbox.focus();
   document.execCommand(command, false, value);
   textbox.focus();
 }
