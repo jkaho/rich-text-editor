@@ -6,6 +6,8 @@ This is a basic rich text editor that allows users to apply formatting to text. 
 - Bold 
 - Italic
 - Underline 
+- Unordered lists
+- Ordered lists
 
 ## Technologies Used
 
