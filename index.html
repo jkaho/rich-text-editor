@@ -14,12 +14,26 @@
   <div id="editor">
     <div id="toolbar">
       <div id="toolbar-section1" class="toolbar-section">
-        <!-- Formatting UI didn't work as icons -->
-        <button id="bold" class="fas fa-bold icon" value="off"></button>
-        <button id="italic" class="fas fa-italic icon" value="off"></button>
-        <button id="underline" class="fas fa-underline icon" value="off"></button>
+        <select id="fontName" class="format-select">
+          <option selected disabled>Font</option>
+          <option>Arial</option>
+          <option>Courier New</option>
+          <option>Garamond</option>
+          <option>Georgia</option>
+          <option>Helvetica</option>
+          <option>Tahoma</option>
+          <option>Times New Roman</option>
+          <option>Trebuchet MS</option>
+          <option>Verdana</option>
+        </select>
       </div>
       <div id="toolbar-section2" class="toolbar-section">
+        <!-- Formatting UI didn't work as icons -->
+        <button id="bold" class="fas fa-bold icon toggle"></button>
+        <button id="italic" class="fas fa-italic icon toggle"></button>
+        <button id="underline" class="fas fa-underline icon toggle"></button>
+      </div>
+      <div id="toolbar-section3" class="toolbar-section">
         <button id="insertUnorderedList" class="fas fa-list-ul icon"></button>
         <button id="insertOrderedList" class="fas fa-list-ol icon"></button>
       </div> 
