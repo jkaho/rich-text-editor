@@ -5,11 +5,12 @@
 This is a basic rich text editor that allows users to apply formatting to text. The formatting features that are currently supported are: 
 - Font
 - Font size 
+- Font colour 
 - Bold 
 - Italic
 - Underline 
-- Unordered lists
-- Ordered lists
+- Lists (unordered and ordered)
+- Text alignment
 
 ## Technologies Used
 
