@@ -99,3 +99,28 @@ html, body {
 #verdana {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* ------- MEDIA QUERIES ------- */
+@media (max-width: 700px) {
+  #toolbar {
+    height: 80px;
+  }
+
+  #toolbar {
+    display: block;
+    text-align: center;
+  }
+
+  #toolbar-section2, #toolbar-section3, #toolbar-section4 {
+    display: inline-block;
+  }
+
+  #toolbar-section1 {
+    margin-top: 10px;
+  }
+
+  .format-select, .icon {
+    top: 0;
+    transform: none;
+  }
+}
