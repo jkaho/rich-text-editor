@@ -32,6 +32,7 @@ function formatButtons() {
 document.getElementById("textbox").addEventListener("input", formatButtons);
 document.getElementById("fontName").addEventListener("change", (event) => formatText(event, "fontName", event.target[event.target.selectedIndex].value));
 document.getElementById("fontSize").addEventListener("change", (event) => formatText(event, "fontSize", event.target[event.target.selectedIndex].value));
+document.getElementById("foreColor").addEventListener("change", (event) => formatText(event, "foreColor", event.target[event.target.selectedIndex].value));
 document.getElementById("bold").addEventListener("click", (event) => formatText(event, "bold"));
 document.getElementById("italic").addEventListener("click", (event) => formatText(event, "italic"));
 document.getElementById("underline").addEventListener("click", (event) => formatText(event, "underline"));
