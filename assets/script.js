@@ -19,7 +19,7 @@ function formatText(event, command, commandValue) {
 }
 
 function formatButtons() {
-  const formats = ["bold", "italic", "underline"];
+  const formats = ["bold", "italic", "underline", "justifyLeft", "justifyCenter", "justifyRight"];
   formats.forEach(format => {
     if (document.queryCommandState(format)) {
       document.getElementById(format).classList.add("format-on");
@@ -38,3 +38,6 @@ document.getElementById("italic").addEventListener("click", (event) => formatTex
 document.getElementById("underline").addEventListener("click", (event) => formatText(event, "underline"));
 document.getElementById("insertUnorderedList").addEventListener("click", (event) => formatText(event, "insertUnorderedList"));
 document.getElementById("insertOrderedList").addEventListener("click", (event) => formatText(event, "insertOrderedList"));
+document.getElementById("justifyLeft").addEventListener("click", (event) => formatText(event, "justifyLeft"));
+document.getElementById("justifyCenter").addEventListener("click", (event) => formatText(event, "justifyCenter"));
+document.getElementById("justifyRight").addEventListener("click", (event) => formatText(event, "justifyRight"));
