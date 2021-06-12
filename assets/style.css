@@ -111,12 +111,13 @@ html, body {
     text-align: center;
   }
 
-  #toolbar-section2, #toolbar-section3, #toolbar-section4 {
+  #toolbar-section2, #toolbar-section3, #toolbar-section4, #toolbar-section5 {
     display: inline-block;
   }
 
   #toolbar-section1 {
     margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   .format-select, .icon {
