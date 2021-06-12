@@ -11,6 +11,8 @@ This is a basic rich text editor that allows users to apply formatting to text. 
 - Underline 
 - Lists (unordered and ordered)
 - Text alignment
+- Subscript / superscript
+- Math symbol insertion
 
 ## Technologies Used
 
