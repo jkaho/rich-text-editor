@@ -43,3 +43,7 @@ document.getElementById("justifyCenter").addEventListener("click", (event) => fo
 document.getElementById("justifyRight").addEventListener("click", (event) => formatText(event, "justifyRight"));
 document.getElementById("subscript").addEventListener("click", (event) => formatText(event, "subscript"));
 document.getElementById("superscript").addEventListener("click", (event) => formatText(event, "superscript"));
+document.getElementById("mathChars").addEventListener("change", (event) => {
+  formatText(event, "insertText", event.target[event.target.selectedIndex].value);
+  event.target.selectedIndex = 0;
+});

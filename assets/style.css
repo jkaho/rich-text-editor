@@ -101,9 +101,9 @@ html, body {
 }
 
 /* ------- MEDIA QUERIES ------- */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #toolbar {
-    height: 80px;
+    height: 120px;
   }
 
   #toolbar {
@@ -111,8 +111,9 @@ html, body {
     text-align: center;
   }
 
-  #toolbar-section2, #toolbar-section3, #toolbar-section4, #toolbar-section5 {
+  #toolbar-section2, #toolbar-section3, #toolbar-section4 {
     display: inline-block;
+    margin-bottom: 5px;
   }
 
   #toolbar-section1 {
