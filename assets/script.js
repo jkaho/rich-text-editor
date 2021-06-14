@@ -47,3 +47,12 @@ document.getElementById("mathChars").addEventListener("change", (event) => {
   formatText(event, "insertText", event.target[event.target.selectedIndex].value);
   event.target.selectedIndex = 0;
 });
+document.getElementById("createLink").addEventListener("click", (event) => {
+  if (!window.getSelection().anchorNode) {
+    alert("You must select a range of text to convert it to a link.");
+    return;
+  } else {
+    let hyperlink = prompt("Enter a link for the selected text:");
+    formatText(event, "insertHTML", `<a href="http://${hyperlink}" target="_blank">${window.getSelection()}</a>`)
+  }
+});
