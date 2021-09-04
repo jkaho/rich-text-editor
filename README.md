@@ -32,9 +32,3 @@ Link to deployed application: [jkaho.github.io/rich-text-editor/](https://jkaho.
 ## Warning 
 
 This project uses the HTML DOM execCommand() method, which is no longer recommended due to deprecation. Refer to [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand) for more information.
-
-## Questions 
-
-**My GitHub Profile:** [jkaho](https://www.github.com/jkaho/inspecti)
-
-If you have any further questions, feel free to email me at [j.h_7@yahoo.com](j.h_7@yahoo.com)
